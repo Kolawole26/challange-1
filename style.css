@@ -1,0 +1,187 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* max-width: 700px; */
+    
+}
+
+section .container {
+    padding: 40px;
+    max-width: 900px;
+    
+}
+
+section .header {
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+section .header h1 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+}
+section .header h3 {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 14px;
+}
+section .header p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.6em;
+}
+section .display {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+section .left {
+    background-color: hsl(179, 62%, 43%);
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    
+}
+section .left h3 {
+    color: #fff;
+    padding-bottom: 14px;
+}
+section .left p {
+    color: rgb(255 255 255 / 70%);
+    padding: 5px 0;
+    
+}
+section .left p span {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 10px;
+    
+}
+
+section .left .font {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+section .left a {
+    text-decoration: none;
+}
+
+section .left a p {
+    padding: 15px 5px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+    
+}
+
+section .left a p:hover {
+    background-color: rgb(255 255 255 / 70%);
+    color: #000;
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+
+
+section .right {
+    background-color: hsl(179, 62%, 43%, 0.8);
+    width: 100%;
+    border-bottom-right-radius: 5px;
+}
+section .right h3 {
+    color: #fff;
+    padding: 14px 0;
+}
+section .right p{
+    color: rgb(255 255 255 / 70%);
+    line-height: 1.6em;
+}
+footer p {
+    font-size: 18px;
+}
+footer p a {
+    text-decoration: none;
+    color: hsl(179, 62%, 43%);
+}
+
+
+@media screen and (max-width: 375px){
+
+    section {
+        top: 100%;
+        width: 80%;
+        
+    }
+
+    section .container {
+        padding: 40px 30px;
+        max-width: 900px;
+
+    }
+
+    section .header h1 {
+        font-size: 18px;
+    }
+    section .header h3 {
+        font-size: 15px;
+    }
+    section .header p {
+        font-size: 13px;
+    }
+    
+    section .display {
+        display: inline-block;   
+    }
+
+    section .left {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    section .left h3 {
+        font-size: 15px;
+    }
+    section .left p {
+        font-size: 13px;
+        
+    }
+    section .left p span {
+        font-size: 30px;
+        
+    }
+
+    section .right {
+        width: 100%;
+        border-bottom-left-radius: 5px;
+    }
+
+    section .right h3 {
+       font-size: 15px;
+    }
+    section .right p{
+        font-size: 13px;
+    }
+}
